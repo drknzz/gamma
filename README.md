@@ -1,7 +1,7 @@
 # IPP2020
 Project from IPP2020 - GAMMA
 
-:::Build:::
+::::::BUILD::::::
 
 mkdir release
 
@@ -11,15 +11,15 @@ cmake ..
 
 make
 
-:::Target:::
+::::::TARGET::::::
 
 ./gamma
 
-:::Play:::
+::::::PLAY::::::
 
 I (width) (height) (players) (areas)
 
-:::Debug:::
+::::::DEBUG::::::
 
 mkdir debug
 
@@ -29,6 +29,6 @@ cmake -D CMAKE_BUILD_TYPE=Debug ..
 
 make
 
-:::Documentation:::
+::::::DOCUMENTATION::::::
 
 make doc
