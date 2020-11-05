@@ -1,0 +1,17 @@
+/**
+@mainpage Dokumentacja zadania gamma
+
+### Treść zadania
+
+Uwaga: aktualna treść zadania znajduje się w [Moodle'u](https://moodle.mimuw.edu.pl).
+
+### Opis programu
+
+Tegoroczne duże zadanie polega na zaimplementowaniu gry gammma.
+
+Program umożliwa grę w gammę w dwóch trybach:
+
+- trybie wsadowym - program oczekuje poleceń tekstowych
+
+- trybie interaktywnym - program wypisuje planszę i oczekuje ruchu wprowadzonego za pomocą strzałek oraz spacji
+*/
