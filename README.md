@@ -1,7 +1,9 @@
 # Gamma
 Assignment for IPP course - game in terminal
 
+![Screenshot from 2021-04-16 16-00-22](https://user-images.githubusercontent.com/65187002/115035633-0f78ee80-9ecd-11eb-930d-f8552d3f42c0.png)
 ---
+
 Gamma is a multi-player game which is played on a rectangular board consisting of identical squares.
 
 Adjacent fields on the boards are those that touch each other on their sides. Fields that touch themselves with corners are not adjacent. Adjacent fields form an area if each field can be reached from one another by only passing through the adjacent spaces. A single field is also an area.
