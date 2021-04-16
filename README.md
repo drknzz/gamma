@@ -1,34 +1,37 @@
-# IPP2020
-Project from IPP2020 - GAMMA
+# Gamma
+Assignment for IPP course - game in terminal
 
-::::::BUILD::::::
+---
+Gamma is a multi-player game which is played on a rectangular board consisting of identical squares.
 
-mkdir release
+Adjacent fields on the boards are those that touch each other on their sides. Fields that touch themselves with corners are not adjacent. Adjacent fields form an area if each field can be reached from one another by only passing through the adjacent spaces. A single field is also an area.
 
-cd release
+At the beginning of the game, the board is empty. Players take turns to occupy one field, placing their pawn on it.
 
-cmake ..
+A player may occupy any unoccupied field, respecting the rule that a set of fields occupied by the same player may not, in any phase of the game, consist of more than the maximum number of areas, which is a parameter of the game.
 
-make
+Each player can make one golden move per game, which consists of taking another player's pawn from the board and placing his pawn in its place, but this move must not violate the rule of the maximum number of occupied areas by any player.
 
-::::::TARGET::::::
+A player who is unable to make a move according to the above rule is out of the game, but may return to play after some golden move of another player.
+
+The game ends when neither player can move anymore. The player with the greatest number of spaces wins.
+
+---
+<h2>Play</h2>
 
 ./gamma
 
-::::::PLAY::::::
+I \<width\> \<height\> \<players\> \<areas\>
 
-I (width) (height) (players) (areas)
+---
+<h2>Build</h2>
 
-::::::DEBUG::::::
-
-mkdir debug
-
-cd debug
-
-cmake -D CMAKE_BUILD_TYPE=Debug ..
-
+mkdir release
+cd release
+cmake ..
 make
 
-::::::DOCUMENTATION::::::
-
+---
+<h2>Documentation</h2>
+  
 make doc
